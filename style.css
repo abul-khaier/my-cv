@@ -1,0 +1,118 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: white;
+    
+
+
+}
+.container{
+    max-width:800px;
+    background-color:whitesmoke;
+    margin: 0 auto;
+
+}
+.header{}
+.header img{
+    height: 120px;
+    width:100px;
+    float:left;
+    border-radius: 50%;
+}
+.name{
+    float:left;
+}
+.name a{
+    text-decoration:none;
+    color:blue;
+}
+.name a:hover{
+    color:tomato;
+    text-decoration: underline;
+}
+.header-contact{
+    float:right;
+    margin:0;
+    padding 0;
+    
+}
+.header-contact a{
+    text-decoration:none;
+    color:blue;
+    font-weight:bold;
+}
+.header-contact a:hover{
+    text-decoration:underline;
+    color:black;
+    
+}
+
+.div-clear{
+    clear:both;
+}
+
+.education{
+
+    float: left;
+}
+.education a{
+    text-decoration: none;
+    color: blue;
+}
+.education a:hover{
+    text-decoration:underline;
+    color: rgb(3, 19, 6);
+}
+.personal{
+    float:right;
+}
+.footer{}
+.footer ul{
+    margin-left: 50px;
+}
+.profiles{
+    margin-top: 5px;
+    background-color: gray;
+    color: white;
+}
+.profiles img{
+    height: 20px;
+    width: 20px;
+    float:left;
+}
+.profiles ul{
+    list-style: none;
+   
+
+}
+.profiles ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.profiles ul li a:hover{
+    color: rgb(3, 19, 6);
+    text-decoration: underline;
+}
+
+.author h4{
+    margin-left: 630px;
+    text-decoration:underline;
+}
+.author h5{
+    margin-left: 625px;
+}
+.author h5 a{
+    text-decoration: none;
+    color: white;
+}
+.author h5 a:hover{
+    text-decoration: underline;
+    color: rgb(3, 19, 6);
+}
